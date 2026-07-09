@@ -48,7 +48,7 @@ namespace June2026.Dapper
             using (IDbConnection db = new SqlConnection(sb.ConnectionString))
             {
                 db.Open();
-                int result = db.Execute("INSERT INTO [dbo].[Students] (StudentID, FirstName, LastName, Gender, DateOfBirth, Email, Phone, City, Major, GPA) VALUES(1, 'San Linn', 'Phyo', 'Male', '2002-12-4', 'devsanlphyo@gmail.com', '09256741222', 'Yangon', 'CS', 9.0)");
+                int result = db.Execute("INSERT INTO [dbo].[Students] (FirstName, LastName, Gender, DateOfBirth, Email, Phone, City, Major, GPA) VALUES('San Linn', 'Phyo', 'Male', '2002-12-4', 'devsanlphyo@gmail.com', '09256741222', 'Yangon', 'CS', 9.0)");
                 Console.WriteLine($"Create: Effected Rows: {result}");
             }
         }

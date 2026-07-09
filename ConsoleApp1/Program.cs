@@ -15,4 +15,4 @@ AdoNetService service = new AdoNetService();
 //service.Read();
 //service.Create();
 //service.Update();
-service.Delete();
+service.Delete();  
