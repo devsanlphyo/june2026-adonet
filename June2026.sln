@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "June2026.AdoDotNet", "June2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "June2026.EFCore.ModelFirst", "June2026.EFCore.ModelFirst\June2026.EFCore.ModelFirst.csproj", "{FB59D889-055C-4E53-BF25-E6AA65CB6E3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "June2026.AttendanceTrackingSystemDB", "June2026.AttendanceTrackingSystemDB\June2026.AttendanceTrackingSystemDB.csproj", "{6A0E0C36-E796-4582-AB6D-F0219E477720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "June2026.EFCore.DatabaseFirst", "June2026.EFCore.DatabaseFirst\June2026.EFCore.DatabaseFirst.csproj", "{74BD660D-60D4-41F1-978F-6DC90E19EBE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{FB59D889-055C-4E53-BF25-E6AA65CB6E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB59D889-055C-4E53-BF25-E6AA65CB6E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB59D889-055C-4E53-BF25-E6AA65CB6E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0E0C36-E796-4582-AB6D-F0219E477720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0E0C36-E796-4582-AB6D-F0219E477720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0E0C36-E796-4582-AB6D-F0219E477720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0E0C36-E796-4582-AB6D-F0219E477720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BD660D-60D4-41F1-978F-6DC90E19EBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BD660D-60D4-41F1-978F-6DC90E19EBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BD660D-60D4-41F1-978F-6DC90E19EBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BD660D-60D4-41F1-978F-6DC90E19EBE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
