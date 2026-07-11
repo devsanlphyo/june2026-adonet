@@ -22,10 +22,14 @@ internal class LoginService
     public void VulnerableLogin(string username, string password)
     {
         using IDbConnection db = new SqlConnection(_sb.ConnectionString);
-        string query = $"""
+        //string query = $"""
+        //        SELECT * FROM Tbl_User 
+        //        WHERE Username = '{username}' AND Password = '{password}';
+        //        """;
+        string query = $@"
                 SELECT * FROM Tbl_User 
                 WHERE Username = '{username}' AND Password = '{password}';
-                """;
+                ";
         var user = db.Query(query).FirstOrDefault();
         if (user != null)
         {
@@ -43,10 +47,14 @@ internal class LoginService
     public void SecuredLogin(string username, string password)
     {
         using IDbConnection db = new SqlConnection(_sb.ConnectionString);
-        string query = """
+        //string query = """
+        //        SELECT * FROM Tbl_User 
+        //        WHERE Username = @Username AND Password = @Password;
+        //        """;
+        string query = @"
                 SELECT * FROM Tbl_User 
                 WHERE Username = @Username AND Password = @Password;
-                """;
+                ";
         var user = db.Query(query, new
         {
             Username = username,
